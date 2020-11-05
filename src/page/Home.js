@@ -1,14 +1,9 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import Button from 'antd/lib/button';
 import "antd/dist/antd.css";
-import {Layout, Menu} from 'antd';
-import {UserOutlined} from '@ant-design/icons';
-import {
-    // BrowserRouter as Router,
-    Route,
-    // Switch,
-    Link
-  } from 'react-router-dom'
+import { Layout, Menu } from 'antd';
+import { UserOutlined} from '@ant-design/icons';
+import { Route, Link } from 'react-router-dom'
 import ButtonDemo from '../components/ButtonDemo'
 import InputDemo from '../components/InputDemo'
 const {Header, Sider, Content} = Layout;
@@ -31,7 +26,6 @@ class Home extends Component {
     render() {
         return (
             <Layout>
-          
               <div className="logo"/>
               <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
                 <Menu.Item key="1">
