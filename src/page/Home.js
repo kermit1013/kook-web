@@ -11,6 +11,7 @@ import { Route, Link } from "react-router-dom";
 import Initail from "../components/Initial";
 import Prediction from "../components/Prediction";
 import Analyze from "../components/Analyze";
+import AreaPrediction from "../components/AreaPrediction"
 
 const { Content } = Layout;
 
@@ -81,6 +82,7 @@ class Home extends Component {
             <Route path="/" exact component={Initail}></Route>
             <Route path="/prediction" exact component={Prediction}></Route>
             <Route path="/analyze" exact component={Analyze}></Route>
+            <Route path="/area-prediction"  exact component={AreaPrediction}></Route>
           </Content>
         </Layout>
       </Layout>
